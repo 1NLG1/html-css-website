@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto-LightItalic.ttf) format('truetype');
+    font-weight: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+section {
+    height: 350px;
+}
+
+.logo {
+    background-color: #F9FAF8;
+    border-radius: 20px;
+}
+
+.links a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.links li {
+    padding: 0 10px;
+}
+
+#link3 {
+    padding: 0;
+}
+
+.hero {
+    padding-top: 60px;
+}
+
+.hero .container {
+    justify-content: space-between;
+}
+
+.hero-left {
+    text-align: left;
+    line-height: 1.1;
+    padding-right: 22px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    text-align: left;
+    color: hsl(220, 13%, 91%);
+    font-size: 18px;
+}
+
+.hero-btn {
+    margin-top: 15px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-img {
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.header {
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.nav-bar {
+    justify-content: space-between;
+}
+
+.contact { 
+    height: 481px;
+}
+
+
+
+.contact-details {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.location { 
+    width: 200px;
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phone-number {
+    width: 200px;
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email {
+    width: 200px;
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 300px;
+    width: 400px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 5px 20px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    color: #1F2937;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 25px;
+    text-align: center;
+}
+
+.copyright {
+    color: #F9FAF8;
+}
