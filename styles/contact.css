@@ -163,6 +163,7 @@ h1 {
 
 input {
     padding: 5px 20px;
+    text-align: center;
 }
 
 .submit-btn {
