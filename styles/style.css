@@ -139,6 +139,7 @@ h2 {
 .client-experience {
     background-color: #E5E7EB;
     align-items: center;
+    height: 350px;
 }
 
 .client-experience .container {
