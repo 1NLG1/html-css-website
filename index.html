@@ -28,81 +28,88 @@
                 </ul>
             </nav>
         </div>
-
-        <main class="hero flex">
-            <div class="container flex">
-                <div class="hero-left">
-                    <h1 class="hero-main-text" style="color: white">Barbershop</h1>
-                    <h4 class="hero-subtext">
-                        Perfect gentlemen's choice
-                    </h4>
-                    <button onclick="#" class="hero-btn">Book appointment</button>
-                </div>
-                <figure class="hero-right">
-                    <img 
-                        src="./images/barbershop.webp" 
-                        alt="" 
-                        class="hero-img"
-                        width="500"
-                        height="200"
-                    >
-                </figure>
-            </div>
-        </main>
     </header>
 
-    <section class="additional-info">
-        <div class="container">
-            <h2>Some hairstyles pics</h2>
-            <ul class="img-list flex">
-                <li class="img-box">
-                    <img src="./images/hairstyle1.jpg" alt="">
-                    <p>High fade</p>
-                </li>
-                <li class="img-box">
-                    <img src="./images/hairstyle2.jpg" alt="">
-                    <p>Lower fade</p>
-                </li>
-                <li class="img-box">
-                    <img src="./images/hairstyle3.jpeg" alt="">
-                    <p>Lower fade</p>
-                </li>
-                <li class="img-box">
-                    <img src="./images/hairstyle4.jpg" alt="">
-                    <p>High fade</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <article class="client-experience flex">
-        <div class="container">
-            <div class="quote">
-                <h3 class="quote-text">
-                    "Great experience. I've felt instantly comfortable and confident in my haircut"
-                </h3>
-                <p class="quote-name">-Happy customer</p>
+    <main class="main">
+        <section class="hero container flex">
+            <div class="hero-left">
+                <h1 class="hero-main-text" style="color: white">Barbershop</h1>
+                <h4 class="hero-subtext">
+                    Perfect gentlemen's choice
+                </h4>
+                <button onclick="#" class="hero-btn">Book appointment</button>
             </div>
-        </div>
-    </article>
+            <figure class="hero-right">
+                <img 
+                    src="./images/barbershop.webp" 
+                    alt="" 
+                    class="hero-img"
+                    width="500"
+                    height="200"
+                >
+            </figure>
+        </section>
 
-    <section class="sign-up flex">
-        <div class="container">
-            <div class="sign-up-box flex">
-                <div class="sign-up-box-left">
-                    <h4>Call to action! It's time!</h4>
-                    <p>Book an appointment. Clients with confirmed appointments will be prioritized</p>
+        <section class="additional-info">
+            <div class="container">
+                <h2>Some hairstyles pics</h2>
+                <ul class="img-list flex">
+                    <li class="img-box">
+                        <img src="./images/hairstyle1.jpg" alt="">
+                        <p>High fade</p>
+                    </li>
+                    <li class="img-box">
+                        <img src="./images/hairstyle2.jpg" alt="">
+                        <p>Lower fade</p>
+                    </li>
+                    <li class="img-box">
+                        <img src="./images/hairstyle3.jpeg" alt="">
+                        <p>Lower fade</p>
+                    </li>
+                    <li class="img-box">
+                        <img src="./images/hairstyle4.jpg" alt="">
+                        <p>High fade</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <article class="client-experience flex">
+            <div class="container">
+                <div class="quote">
+                    <h3 class="quote-text">
+                        "Great experience. I've felt instantly comfortable and confident in my haircut"
+                    </h3>
+                    <p class="quote-name">-Happy customer</p>
                 </div>
-                <button class="sign-up-btn">Book appointment</button>
             </div>
-        </div>
-    </section>
+        </article>
 
+        <section class="sign-up flex">
+            <div class="container">
+                <div class="sign-up-box flex">
+                    <div class="sign-up-box-left">
+                        <h4>Call to action! It's time!</h4>
+                        <p>Book an appointment. Clients with confirmed appointments will be prioritized</p>
+                    </div>
+                    <button class="sign-up-btn">Book appointment</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
     <footer class="footer">
         <div class="container">
             <p class="copyright">Copyright ©</p>
         </div>
     </footer>
-    
+
+    <!-- Note: I would have taken all the div containers out If I could find a way to keep a different color outside of the max-width. 
+        Let's say I give both the header and the section below main(with the class '.additional-info') the max width of 1200px. Header has the background color of #1F2937 and the ".additional-info" section has 
+        the background color of #fff. Well, I can set the body background color to the header's bg color to extend it above the max-width borders of the header but 
+        then how do I manage to keep an extended #fff color of the .additional-info section ? That's why I used those divs, to avoid this problem. Maybe there're other ways
+        like using pseudo elements or idk. I hope I made myself clear with my poor explained example.
+    -->
 </body>
 </html>

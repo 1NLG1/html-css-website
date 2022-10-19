@@ -49,11 +49,17 @@ ul {
     padding: 0;
 }
 
-.hero {
-    padding-top: 60px;
+.main {
+    background-color: #1F2937;
 }
 
-.hero .container {
+.hero {
+    padding-top: 60px;
+    height: 370px;
+    background-color: #1F2937;
+}
+
+.hero {
     justify-content: space-between;
 }
 
@@ -98,7 +104,6 @@ h1 {
 
 .header {
     background-color: #1F2937;
-    height: 400px;
 }
 
 .nav-bar {
@@ -107,9 +112,9 @@ h1 {
 
 .contact { 
     height: 481px;
+    background-color: #fff;
+    padding-top: 5px;
 }
-
-
 
 .contact-details {
     margin-top: 20px;
@@ -172,6 +177,7 @@ input {
     background-color: #1F2937;
     padding: 25px;
     text-align: center;
+    margin-top: 14px;
 }
 
 .copyright {
