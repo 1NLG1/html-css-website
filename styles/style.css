@@ -205,3 +205,7 @@ h2 {
 .copyright {
     color: #F9FAF8;
 }
+
+
+/* note: the reason why the homepage is a bit to the left and the contact page is closer to the right is because,
+ the homepage unlike the contact page, has the scrollbar which pushes it a bit to the left  */
